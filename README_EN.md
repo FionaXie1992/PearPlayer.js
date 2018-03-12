@@ -50,7 +50,7 @@ Please copy the following codes into Web HTML5 code, and then open a webpage. No
   var player = new PearPlayer('#video', { src: 'https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4' });
 </script>
 ```
-## ## Usage
+## Usage
 ###  Import js file and bind to video tag
 First import the <script> tag to pear-player.min.js：```html
 <script src="./dist/pear-player.min.js"></script>
@@ -80,7 +80,7 @@ Congratulations! NOW your player has P2P ability and no plug-ins!
 ### How to accelerate your videos?
 The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide.（Now only support `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`）
 
-## Who's using Pearplayer today？
+## Who's using PearPlayer today？
 
 + [Pear Limited](https://pear.hk)
 + [Lenovo China](https://www.lenovo.com.cn/)
@@ -91,7 +91,7 @@ The videos above has already been dispatched. So how to speed up other videos? I
 + [Tencent X5/TBS](https://x5.tencent.com/tbs/)
 + [Tencent APD](http://www.chinaz.com/news/2016/0707/548873.shtml)
 
-## Pearplayer Files
+## PearPlayer Files
 - **[get-started ](docs/get-started.md)**
 - **[API](docs/api.md)**
 
