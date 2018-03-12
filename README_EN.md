@@ -24,7 +24,6 @@ PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streami
 <br>
 <br>
 ![multisources](fig/fogvdn_multisources.png)
-
 PearPlayer can be used by just importing `pear-player.min.js` through the `<script>` tag to HTML. Refer to [code examples](#快速开始) below, or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
 
 
@@ -33,7 +32,7 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 - Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
--	Buffers are limited to save bandwidth/traffic for CP user.
+-	Buffers are limited to save bandwidth/traffic for CP users.
 -	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) 
 -	Optional access to low cost, high availability Pear Fog CDN
 -	Fully encrypted via TLS/DTLS default by protocols, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
@@ -52,14 +51,15 @@ Please copy the following codes into Web HTML5 code, and then open a webpage. No
 ```
 ## Usage
 ###  Import js file and bind to video tag
-First import the <script> tag to pear-player.min.js：```html
+First import the <script> tag to pear-player.min.js:
+```html
 <script src="./dist/pear-player.min.js"></script>
 ```
-or use CDN：
+or use CDN:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 ```
-If use video tag to play the following video, please see HTML below：
+If use video tag to play the following video, please see HTML below:
 ```html
 <video id="pearvideo" src="https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4" controls>
 ```
