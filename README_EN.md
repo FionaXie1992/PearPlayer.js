@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Streaming Media Player that Supports Multi-protocol, Multi-source and Mixed P2P-CDN</h4>
+<h4 align="center">A Streaming Media Player that Supports Multi-protocol, Multi-source and Mixed P2P-CDN</h4>
 <p align="center">
   <a href="https://www.npmjs.com/package/pearplayer"><img src="https://img.shields.io/npm/v/pearplayer.svg?style=flat" alt="npm"></a>
    <a href="https://www.jsdelivr.com/package/npm/pearplayer"><img src="https://data.jsdelivr.com/v1/package/npm/pearplayer/badge" alt="jsdelivr"></a>
@@ -17,7 +17,7 @@
 
 **[English](https://github.com/PearInc/PearPlayer.js/blob/master/README_EN.md)**
 
-PearPlayer (梨享播放器)**[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE (Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to configure to failover automatically. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
+PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE (Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to configure to failover automatically. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 
 
 
@@ -26,7 +26,7 @@ PearPlayer (梨享播放器)**[[Demo](https://demo.webrtc.win/)]** is a streamin
 <br>
 ![multisources](fig/fogvdn_multisources.png)
 
-PearPlayer can be used by just importing `pear-player.min.js` through the  `<script>` tag to HTML. Refer to [code examples](#快速开始) below，or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
+PearPlayer can be used by just importing `pear-player.min.js` through the `<script>` tag to HTML. Refer to [code examples](#快速开始) below，or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
 
 
 ## Features
@@ -35,13 +35,13 @@ PearPlayer can be used by just importing `pear-player.min.js` through the  `<scr
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP user
--	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) -	Optional access to low cost, high availability Pear Fog CDN
+-	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) 
+-	Optional access to low cost, high availability Pear Fog CDN
 -	Fully encrypted via TLS/DTLS default by protocols, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack
 -	As easy as using HTML5 <video> script tag; Easy to integrate with popular player fameworks like video.js
 - With Browser P2P ability（based on WebTorrent）
 
 ![bitmap](fig/bitmap_en.png)
-
 ## Quick Start
 Please copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
 
@@ -53,7 +53,6 @@ Please copy the following codes into Web HTML5 code, and then open a webpage. No
 ```
 
 ## ## Usage
-
 ###  Import js file and bind to video tag
 First import the <script> tag to pear-player.min.js：```html
 <script src="./dist/pear-player.min.js"></script>
@@ -62,7 +61,7 @@ or use CDN：
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 ```
-If use video tag to play the following video, see HTML below：
+If use video tag to play the following video, please see HTML below：
 ```html
 <video id="pearvideo" src="https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4" controls>
 ```
@@ -81,7 +80,7 @@ PearPlayer can be bound to the video tag using only the codes below:
 Congratulations! NOW your player has P2P ability and no plug-ins!
 
 ### How to accelerate your videos?
-The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into[Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos！Please click [here](https://manual.webrtc.win/oss/) for detailed guide（now only support  `MP4`format, need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`）
+The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos！Please click [here](https://manual.webrtc.win/oss/) for detailed guide.（Now only support `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`）
 
 ## Who's using Pearplayer today？
 
@@ -99,7 +98,7 @@ The videos above has already been dispatched. So how to speed up other videos? I
 - **[API](docs/api.md)**
 
 ## Acknowledgement
-Special thanks to the following projects that provide some inspirations and API design references:
+Special thanks goes to the following projects that provide some inspirations and API design references:
 
 - [WebTorrent](https://github.com/webtorrent/webtorrent)
 - [Peer5](https://www.peer5.com/#)
