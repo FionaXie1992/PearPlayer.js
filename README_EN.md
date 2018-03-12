@@ -118,4 +118,4 @@ Special thanks goes to the following projects that provide some inspirations and
 MIT. Copyright (c) [Pear Limited](https://pear.hk) and [snowinszu](https://github.com/snowinszu).
 
 ## Help and Support
-E-mail: <service@pear.hk>; User QQ group:`373594967`; [CP/CDN、OEM and other business cooperations](https://github.com/PearInc/FogVDN)
+E-mail: <service@pear.hk>; User QQ group:`373594967`; [CP/CDN, OEM and other business cooperations](https://github.com/PearInc/FogVDN)
