@@ -91,7 +91,7 @@ The videos above has already been dispatched. So how to speed up other videos? I
 + [Tencent X5/TBS](https://x5.tencent.com/tbs/)
 + [Tencent APD](http://www.chinaz.com/news/2016/0707/548873.shtml)
 
-## PearPlayer Files
+## PearPlayer Documents
 - **[get-started ](docs/get-started.md)**
 - **[API](docs/api.md)**
 
