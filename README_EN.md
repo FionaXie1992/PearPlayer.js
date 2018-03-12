@@ -20,8 +20,7 @@ PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streami
 
 
 
-![PearPlayer](fig/PearPlayer.png)
-<br>
+![PearPlayer](fig/PearPlayer.png)<br>
 <br>
 ![multisources](fig/fogvdn_multisources.png)
 PearPlayer can be used by just importing `pear-player.min.js` through the `<script>` tag to HTML. Refer to [code examples](#快速开始) below, or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
@@ -29,7 +28,7 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 
 ## Features
 - Plugin-free because of P2P ability based on WebRTC
-- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
+i- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP users.
@@ -39,9 +38,9 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 -	As easy as using HTML5 <video> script tag; Easy to integrate with popular player fameworks like video.js
 - With Browser P2P ability（based on WebTorrent）
 
-![bitmap](fig/bitmap_en.png)
+f![bitmap](fig/bitmap_en.png)
 ## Quick Start
-Please copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
+iPlease copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
 
 ```html<script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 <video id="video" controls></video>
@@ -51,7 +50,7 @@ Please copy the following codes into Web HTML5 code, and then open a webpage. No
 ```
 ## Usage
 ###  Import js file and bind to video tag
-First import the <script> tag to pear-player.min.js:
+fFirst import the <script> tag to pear-player.min.js:
 ```html
 <script src="./dist/pear-player.min.js"></script>
 ```
@@ -74,7 +73,7 @@ PearPlayer can be bound to the video tag using only the codes below:
     var player = new PearPlayer('#pearvideo', opts);
   }
 </script>
-```
+T```
 Congratulations! NOW your player has P2P ability and no plug-ins!
 
 ### How to accelerate your videos?
@@ -103,11 +102,11 @@ Special thanks goes to the following projects that provide some inspirations and
 
 ## Speech and Media Reports
 
-- Feb 2018 (36Kr) - [「Pear梨享」让雾计算落地，百万边缘节点的背后是提高效率和成本控制](http://36kr.com/p/5118.html) 
-- Nov 2017 (Gold Science and Technology) - [DITING Technologies Inc，which invested Pear Limited, has entered Blockchain domain](http://www.jinse.com/blockchain/99767.html)
-- Sep 2017 (Future Network and Open Community Alliance) - [Fog Computing has begun after Cloud Computing - about P2P CDN](https://mp.weixin.qq.com/s/39dfSA6cTj2eoo-KqsC3AQ)  
-- Aug 2017 (IT biggie talk) - [Will WebRTC be the mainstream? It's era to crowdsource!](http://mp.weixin.qq.com/s/cx_ljl2sexE0XkgliZfnmQ)
-- Jul 2017 (OSChina) - [PearPlayer.js - The streaming media player is Mixed P2P-CDN](https://www.oschina.net/p/PearPlayerjs)
+- Feb 2018 (36Kr) - [「Pear Share」practises fog computing, behind millions of fringe nodes are efficiency promotion and cost control](http://36kr.com/p/5118.html) 
+- Nov 2017 (Gold Science and Technology) - [DITING Technologies Inc. officially enters the blockchain domain and invests Pear Limited](http://www.jinse.com/blockchain/99767.html)
+- Sep 2017 (Future Network and Open Community Alliance) - [Fog Computing rises after Cloud Computing - Have a discuss on P2P CDN](https://mp.weixin.qq.com/s/39dfSA6cTj2eoo-KqsC3AQ)  
+- Aug 2017 (IT biggie talk) - [Will WebRTC be the mainstream? Here comes the era of CDN crowdsourcing!](http://mp.weixin.qq.com/s/cx_ljl2sexE0XkgliZfnmQ)
+- Jul 2017 (OSChina) - [PearPlayer.js - A streaming media player supports Mixed P2P-CDN](https://www.oschina.net/p/PearPlayerjs)
 - Jun 2017 (Tencent Frontend Conference) - [P2P-CDN streaming media acceleration based on WebRTC](http://www.itdks.com/dakalive/detail/2577)
 - May 2017 (Southern University of Science and Technology) - Edge Computing and Shared Fog Streaming
 - May 2017 (Feng Chia University) - A Cooler Fruit Venture: Scaling up a Network from Cloud to Fog with Crowdsourcing
