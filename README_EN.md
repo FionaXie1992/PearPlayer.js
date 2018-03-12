@@ -6,10 +6,9 @@
   <br>
   <br>
 </h1>
-
 <h4 align="center">A Streaming Media Player that Supports Multi-protocol, Multi-source and Mixed P2P-CDN</h4>
 <p align="center">
-  <a href="https://www.npmjs.com/package/pearplayer"><img src="https://img.shields.io/npm/v/pearplayer.svg?style=flat" alt="npm"></a>
+.  <a href="https://www.npmjs.com/package/pearplayer"><img src="https://img.shields.io/npm/v/pearplayer.svg?style=flat" alt="npm"></a>
    <a href="https://www.jsdelivr.com/package/npm/pearplayer"><img src="https://data.jsdelivr.com/v1/package/npm/pearplayer/badge" alt="jsdelivr"></a>
  <a href="https://www.jsdelivr.com/package/npm/pearplayer"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 </p>
@@ -26,18 +25,18 @@ PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streami
 <br>
 ![multisources](fig/fogvdn_multisources.png)
 
-PearPlayer can be used by just importing `pear-player.min.js` through the `<script>` tag to HTML. Refer to [code examples](#快速开始) below，or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
+PearPlayer can be used by just importing `pear-player.min.js` through the `<script>` tag to HTML. Refer to [code examples](#快速开始) below, or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
 
 
 ## Features
 - Plugin-free because of P2P ability based on WebRTC
 - Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
--	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time
+-	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
--	Buffers are limited to save bandwidth/traffic for CP user
+-	Buffers are limited to save bandwidth/traffic for CP user.
 -	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) 
 -	Optional access to low cost, high availability Pear Fog CDN
--	Fully encrypted via TLS/DTLS default by protocols, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack
+-	Fully encrypted via TLS/DTLS default by protocols, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
 -	As easy as using HTML5 <video> script tag; Easy to integrate with popular player fameworks like video.js
 - With Browser P2P ability（based on WebTorrent）
 
@@ -51,7 +50,6 @@ Please copy the following codes into Web HTML5 code, and then open a webpage. No
   var player = new PearPlayer('#video', { src: 'https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4' });
 </script>
 ```
-
 ## ## Usage
 ###  Import js file and bind to video tag
 First import the <script> tag to pear-player.min.js：```html
@@ -80,7 +78,7 @@ PearPlayer can be bound to the video tag using only the codes below:
 Congratulations! NOW your player has P2P ability and no plug-ins!
 
 ### How to accelerate your videos?
-The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos！Please click [here](https://manual.webrtc.win/oss/) for detailed guide.（Now only support `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`）
+The videos above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide.（Now only support `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`）
 
 ## Who's using Pearplayer today？
 
@@ -120,5 +118,4 @@ Special thanks goes to the following projects that provide some inspirations and
 MIT. Copyright (c) [Pear Limited](https://pear.hk) and [snowinszu](https://github.com/snowinszu).
 
 ## Help and Support
-E-mail: <service@pear.hk>；User QQ group:`373594967`； [CP/CDN、OEM and other business cooperations](https://github.com/PearInc/FogVDN)
-—
+E-mail: <service@pear.hk>; User QQ group:`373594967`; [CP/CDN、OEM and other business cooperations](https://github.com/PearInc/FogVDN)
