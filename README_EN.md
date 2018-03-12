@@ -1,5 +1,6 @@
 <h1 align="center">
-  <img src="fig/pear.png" height="110"></img>
+
+<img src="fig/pear.png" height="110"></img>
   <br>
   <a href="https://demo.webrtc.win/player">PearPlayer.js</a>
   <br>
@@ -16,7 +17,7 @@
 
 **[English](https://github.com/PearInc/PearPlayer.js/blob/master/README_EN.md)**
 
-PearPlayer（梨享播放器）**[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves streaming media acceleration of Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE ( Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to configure to failover automatically. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
+PearPlayer（梨享播放器）**[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE ( Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to configure to failover automatically. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 
 
 
@@ -29,7 +30,8 @@ PearPlayer can be used by just importing `pear-player.min.js` through the  `<scr
 
 
 ## Features
-- Plugin-free because of P2P ability based on WebRTC- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
+- Plugin-free because of P2P ability based on WebRTC
+- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP user
@@ -119,5 +121,5 @@ Special thanks to the following projects that provide some inspirations and API 
 MIT. Copyright (c) [Pear Limited](https://pear.hk) and [snowinszu](https://github.com/snowinszu).
 
 ## Help and Support
-E-mail: <service@pear.hk>；User QQ group ：`373594967`； [CP/CDN、OEM and other business cooperations] (https://github.com/PearInc/FogVDN)
+E-mail: <service@pear.hk>；User QQ group:`373594967`； [CP/CDN、OEM and other business cooperations](https://github.com/PearInc/FogVDN)
 —
