@@ -37,7 +37,7 @@ i- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
 -	As easy as using HTML5 <video> script tag; Easy to integrate with popular player fameworks like video.js
 - With Browser P2P ability（based on WebTorrent）
 
-f![bitmap](fig/bitmap_en.png)
+![bitmap](fig/bitmap_en.png)
 ## Quick Start
 iPlease copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
 
