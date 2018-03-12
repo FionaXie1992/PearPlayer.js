@@ -35,7 +35,7 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 -	Buffers are limited to save bandwidth/traffic for CP users.
 -	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) 
 -	Optional access to low cost, high availability Pear Fog CDN
--	Fully encrypted via TLS/DTLS default by protocols, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
+-	Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
 -	As easy as using HTML5 <video> script tag; Easy to integrate with popular player fameworks like video.js
 - With Browser P2P ability（based on WebTorrent）
 
