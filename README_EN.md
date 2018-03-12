@@ -2,8 +2,7 @@
 
 <img src="fig/pear.png" height="110"></img>
   <br>
-  <a href="https://demo.webrtc.win/player">PearPlayer.js</a>
-  <br>
+  <a href="https://demo.webrtc.win/player">PearPlayer.js</a>  <br>
   <br>
 </h1>
 <h4 align="center">A Streaming Media Player that Supports Multi-protocol, Multi-source and Mixed P2P-CDN</h4>
