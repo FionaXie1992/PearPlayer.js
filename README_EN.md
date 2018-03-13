@@ -39,7 +39,7 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 
 ![bitmap](fig/bitmap_en.png)
 ## Quick Start
-iPlease copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
+Please copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
 
 ```html<script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 <video id="video" controls></video>
@@ -47,9 +47,10 @@ iPlease copy the following codes into Web HTML5 code, and then open a webpage. N
   var player = new PearPlayer('#video', { src: 'https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4' });
 </script>
 ```
+
 ## Usage
 ###  Import js file and bind to video tag
-fFirst import the <script> tag to pear-player.min.js:
+First import the <script> tag to pear-player.min.js:
 ```html
 <script src="./dist/pear-player.min.js"></script>
 ```
@@ -72,7 +73,7 @@ PearPlayer can be bound to the video tag using only the codes below:
     var player = new PearPlayer('#pearvideo', opts);
   }
 </script>
-T```
+```
 Congratulations! NOW your player has P2P ability and no plug-ins!
 
 ### How to accelerate your videos?
