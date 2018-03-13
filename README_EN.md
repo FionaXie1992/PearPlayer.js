@@ -17,8 +17,6 @@
 
 PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE (Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to handle abnormal situations. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 
-
-
 ![PearPlayer](fig/PearPlayer.png)<br>
 <br>
 ![multisources](fig/fogvdn_multisources.png)
@@ -26,15 +24,15 @@ PearPlayer can be used by just importing `pear-player.min.js` to HTML through th
 
 
 ## Features
-- Plugin-free because of P2P ability based on WebRTC
+- Plugin-free because of P2P ability based on **WebRTC**
 - Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP users.
 -	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) 
--	Optional access to low cost, high availability Pear Fog CDN
+-	Optional access to low cost, high availability Pear [Fog CDN](https://github.com/PearInc/FogVDN)
 -	Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
--	As easy as using HTML5 <video> tag; Easy to integrate with popular player frameworks like video.js
+-	As easy as using HTML5 `<video>` tag; Easy to integrate with popular player frameworks like [video.js](https://github.com/videojs/video.js)
 - With Browser P2P ability (based on WebTorrent)
 
 ![bitmap](fig/bitmap_en.png)
@@ -48,7 +46,7 @@ Please copy the following codes into Web HTML5 code, and then open the webpage. 
 </script>
 ```
 
-## Usage
+## Usages
 ###  Import js file and bind to video tag
 First import the <script> tag to pear-player.min.js:
 ```html
@@ -58,7 +56,7 @@ or use CDN:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 ```
-If use video tag to play the following video, please see HTML below:
+If use video tag to play the following video, see HTML below:
 ```html
 <video id="pearvideo" src="https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4" controls>
 ```
@@ -67,7 +65,7 @@ PearPlayer can be bound to the video tag using only the codes below:
 <script>
   /**
   * The first parameter is ID or CLASS of the video tag
-  * Opts, the optional parameter configuration
+  * Opts means the optional parameter configurations
   */
   if (PearPlayer.isMSESupported()) {
     var player = new PearPlayer('#pearvideo', opts);
