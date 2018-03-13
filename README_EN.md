@@ -39,7 +39,7 @@ PearPlayer can be used by just importing `pear-player.min.js` to HTML through th
 
 ![bitmap](fig/bitmap_en.png)
 ## Quick Start
-Please copy the following codes into Web HTML5 code, and then open a webpage. Now, it's time to witness the miracle.
+Please copy the following codes into Web HTML5 code, and then open the webpage. Now, it's time to witness the miracle.
 
 ```html<script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 <video id="video" controls></video>
