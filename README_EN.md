@@ -21,7 +21,7 @@ PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streami
 <br>
 ![multisources](fig/fogvdn_multisources.png)
 
-Simply import `pear-player.min.js` to HTML via the `<script>` tag. Refer to [code examples](#quick start) below, or consult [`/examples/player-test.html`](/examples/player-test.html) or [get-started](docs/get-started.md) for usages.<br/> 
+Simply import `pear-player.min.js` to HTML via the `<script>` tag. Refer to [code examples](#quickstart) below, or consult [`/examples/player-test.html`](/examples/player-test.html) or [get-started](docs/get-started.md) for usages.<br/> 
 
 
 ## Features
