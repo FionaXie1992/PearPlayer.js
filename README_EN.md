@@ -5,7 +5,7 @@
   <a href="https://demo.webrtc.win/player">PearPlayer.js</a>  <br>
   <br>
 </h1>
-<h4 align="center">A Streaming Media Player that Supports Multi-protocol, Multi-source and Mixed P2P-CDN</h4>
+<h4 align="center">A multi-protocol, multi-source and hybrid P2P-CDN streaming media Player</h4>
 <p align="center">
 .  <a href="https://www.npmjs.com/package/pearplayer"><img src="https://img.shields.io/npm/v/pearplayer.svg?style=flat" alt="npm"></a>
    <a href="https://www.jsdelivr.com/package/npm/pearplayer"><img src="https://data.jsdelivr.com/v1/package/npm/pearplayer/badge" alt="jsdelivr"></a>
@@ -15,26 +15,26 @@
 
 **[English](https://github.com/PearInc/PearPlayer.js/blob/master/README_EN.md)**
 
-PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE (Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to handle abnormal situations. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
+PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, PearPlayer accelerates media streaming on the Web. It supports multiple protocols, multiple sources, and achieves low latency and high bandwidth utilization. With the help of H5 MSE (Media Source Extension) technology, it receives buffers from multiple source nodes and delivers to the player. Finely designed algorithms are adopted to achieve the best scheduling effect and to handle abnormal situations. Thus, PearPlayer can provide end-users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 
 ![PearPlayer](fig/PearPlayer.png)<br>
 <br>
 ![multisources](fig/fogvdn_multisources.png)
 
-PearPlayer can be used by just importing `pear-player.min.js` to HTML via `<script>` tag. Refer to [code examples](#快速开始) below, or consult [`/examples/player-test.html`](/examples/player-test.html) or [get-started](docs/get-started.md) for usages.<br/> 
+Simply import `pear-player.min.js` to HTML via the `<script>` tag. Refer to [code examples](## Quick Start) below, or consult [`/examples/player-test.html`](/examples/player-test.html) or [get-started](docs/get-started.md) for usages.<br/> 
 
 
 ## Features
-- Plugin-free because of P2P ability based on **WebRTC**
+- Plugin-free thanks to the P2P ability based on **WebRTC**
 - Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
--	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
--	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
+-	Customized algorithms that provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
+-	Parameter-free by default (dynamic adaptive internally according to bitrate, etc.). Clients can fill in their preferred parameters in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP users.
--	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; Will support Safari, Tencent WeChat and X5/TBS (Multi-source transmission is enabled; The playing issues can shortly be well resolved by MSE.) 
--	Optional access to low cost, high availability Pear [Fog CDN](https://github.com/PearInc/FogVDN)
--	Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
--	As easy as using HTML5 `<video>` tag; Easy to integrate with popular player frameworks like [video.js](https://github.com/videojs/video.js)
-- With Browser P2P ability (based on WebTorrent)
+-	Support Chrome, Firefox, Opera, IE, Edge and other mainstream browsers; will support Safari, Tencent WeChat and X5/TBS (multi-source transmission is enabled; media playback issues will be well resolved when MSE is supported)
+-	Optional access to low cost, high availability Pear [Fog CDN](https://github.com/PearInc/FogCDN)
+-	Fully encrypted via TLS/DTLS by default, no DPI features; statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog Suite.
+-	As easy as using HTML5 `<video>` tag; easy to integrate with popular player frameworks like [video.js](https://github.com/videojs/video.js)
+- With Browser-to-Browser P2P ability (based on WebTorrent)
 
 ![bitmap](fig/bitmap_en.png)
 ## Quick Start
@@ -76,7 +76,7 @@ PearPlayer can be bound to the video tag using only the codes below:
 Congratulations! NOW your player has P2P ability and no plug-ins!
 
 ### How to accelerate your videos?
-The video above has already been dispatched. So how to speed up other videos? It's a piece of cake. Just add your video URL into [Video distribution system](https://oss.webrtc.win/). And then you can feel free to use Pear's massive nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (Now only support dispatched `MP4`format. You need to add `Pear-Demo` in front of the video name, such as `Pear-Demo-movie.mp4`)
+The video above has already been dispatched. So how to speed up other videos? Just add your video URL into [Pear Fog Content Delivery Operating System](https://oss.webrtc.win/). And then you can feel free to use Pear's massive fog nodes to accelerate your videos! Please click [here](https://manual.webrtc.win/oss/) for detailed guide. (Now only support `MP4` format. You need to add `Pear-Demo-` prefix in front of the video file name, such as `Pear-Demo-movie.mp4`)
 
 ## Who's using PearPlayer today？
 
@@ -102,7 +102,7 @@ Special thanks goes to the following projects that provide some inspirations and
 ## Speech and Media Reports
 
 - Feb 2018 (36Kr) - [「Pear Share」practises fog computing, behind millions of fringe nodes are efficiency promotion and cost control](http://36kr.com/p/5118.html) 
-- Nov 2017 (Gold Science and Technology) - [DITING Technologies Inc. officially enters the blockchain domain and invests Pear Limited](http://www.jinse.com/blockchain/99767.html)
+- Nov 2017 (CoinTime) - [DITING Technologies Inc. officially enters the blockchain domain and invests Pear Limited](http://www.jinse.com/blockchain/99767.html)
 - Sep 2017 (Future Network and Open Community Alliance) - [Fog Computing rises after Cloud Computing - Have a discuss on P2P-CDN](https://mp.weixin.qq.com/s/39dfSA6cTj2eoo-KqsC3AQ) 
 - Aug 2017 (IT Biggie Talks) - [Will WebRTC be the mainstream? Here comes the era of CDN crowdsourcing!](http://mp.weixin.qq.com/s/cx_ljl2sexE0XkgliZfnmQ)
 - Jul 2017 (OSChina) - [PearPlayer.js - A streaming media player supports Mixed P2P-CDN](https://www.oschina.net/p/PearPlayerjs)
@@ -116,4 +116,4 @@ Special thanks goes to the following projects that provide some inspirations and
 MIT. Copyright (c) [Pear Limited](https://pear.hk) and [snowinszu](https://github.com/snowinszu).
 
 ## Help and Support
-E-mail: <service@pear.hk>; User QQ group:`373594967`; [CP/CDN, OEM and other business cooperations](https://github.com/PearInc/FogVDN)
+E-mail: <service@pear.hk>; User QQ group:`373594967`; [CP/CDN, OEM and other business cooperations](https://github.com/PearInc/FogCDN)
