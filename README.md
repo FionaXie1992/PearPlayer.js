@@ -58,7 +58,7 @@ PearPlayer（梨享播放器）**[[Demo](https://demo.webrtc.win/)]** 是完全�
 ```html
 <script src="./dist/pear-player.min.js"></script>
 ```
-或者使用CDN：
+或使用CDN：
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 ```
@@ -83,7 +83,7 @@ PearPlayer（梨享播放器）**[[Demo](https://demo.webrtc.win/)]** 是完全�
 ### 如何为自己的视频加速？
 示例中的视频是已经分发过的，那么如何为任意视频加速呢？很简单，只需在[视频分发系统](https://oss.webrtc.win/)中添加您的视频URL，即可利用Pear的海量节点为您的视频加速！具体教程请点击[这里](https://manual.webrtc.win/oss/)（目前仅支持分发`MP4`格式，视频名字需添加`Pear-Demo`前缀，如`Pear-Demo-movie.mp4`）
 
-## 谁在用我们的产品？
+## 谁在使用我们的产品？
 
 + [Pear Limited](https://pear.hk)
 + [Lenovo China](https://www.lenovo.com.cn/)
