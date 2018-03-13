@@ -15,7 +15,7 @@
 
 **[English](https://github.com/PearInc/PearPlayer.js/blob/master/README_EN.md)**
 
-PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE (Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to configure to failover automatically. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
+PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streaming media player framework written completely with HTML5 and JavaScript. Combining HTTP (including HTTPS, HTTP2) and WebRTC, the player achieves the streaming media acceleration on Web client side, which features multi-protocol, multi-source, low latency and high bandwidth utilization. H5 MSE (Media Source Extension) technology can allocate the buffer block from multi-source nodes to the player. What's more, a well-designed algorithm has been used to achieve the best scheduling mechanism and to handle abnormal situations. Thus, PearPlayer can provide users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 
 
 
