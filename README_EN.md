@@ -5,7 +5,7 @@
   <a href="https://demo.webrtc.win/player">PearPlayer.js</a>  <br>
   <br>
 </h1>
-<h4 align="center">A multi-protocol, multi-source and hybrid P2P-CDN streaming media Player</h4>
+<h4 align="center">A multi-protocol, multi-source and hybrid P2P-CDN streaming media player</h4>
 <p align="center">
 .  <a href="https://www.npmjs.com/package/pearplayer"><img src="https://img.shields.io/npm/v/pearplayer.svg?style=flat" alt="npm"></a>
    <a href="https://www.jsdelivr.com/package/npm/pearplayer"><img src="https://data.jsdelivr.com/v1/package/npm/pearplayer/badge" alt="jsdelivr"></a>
