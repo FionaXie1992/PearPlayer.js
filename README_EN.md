@@ -35,7 +35,7 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 -	Optional access to low cost, high availability Pear Fog CDN
 -	Fully encrypted via TLS/DTLS by default, no DPI features; Statistical characteristics can be further eliminated using dynamic port mapping of Pear Fog pack.
 -	As easy as using HTML5 <video> tag; Easy to integrate with popular player fameworks like video.js
-- With Browser P2P ability（based on WebTorrent）
+- With Browser P2P ability (based on WebTorrent)
 
 ![bitmap](fig/bitmap_en.png)
 ## Quick Start
