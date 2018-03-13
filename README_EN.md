@@ -27,7 +27,7 @@ PearPlayer can be used by just importing `pear-player.min.js` through the `<scri
 
 ## Features
 - Plugin-free because of P2P ability based on WebRTC
-i- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
+- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP users.
