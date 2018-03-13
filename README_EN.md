@@ -22,12 +22,12 @@ PearPlayer (梨享播放器) **[[Demo](https://demo.webrtc.win/)]** is a streami
 ![PearPlayer](fig/PearPlayer.png)<br>
 <br>
 ![multisources](fig/fogvdn_multisources.png)
-PearPlayer can be used by just importing `pear-player.min.js` through the `<script>` tag to HTML. Refer to [code examples](#快速开始) below, or [`/examples/player-test.html`](/examples/player-test.html) for usages. Refer to [get-started](docs/get-started.md) to know the basic usage.<br/> 
+PearPlayer can be used by just importing `pear-player.min.js` to HTML through the `<script>` tag. Refer to [code examples](#快速开始) below, or consult [`/examples/player-test.html`](/examples/player-test.html) or [get-started](docs/get-started.md) for usages.<br/> 
 
 
 ## Features
 - Plugin-free because of P2P ability based on WebRTC
-- Multi-protocol (HTTP, HTTPS, WebRTC) and multi-source
+- Multiprotocols (HTTP, HTTPS, WebRTC) and multi-source
 -	Self-developed scheduling algorithm provides the users with wonderful video watching experience while maximizing the P2P ratio at the same time.
 -	No parameters needed to be entered by default (The system can self-adapt according to the video bit rate, etc.). Algorithms and parameters can be adjusted in advanced mode.
 -	Buffers are limited to save bandwidth/traffic for CP users.
