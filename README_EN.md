@@ -57,7 +57,7 @@ or use CDN:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/pearplayer@latest"></script>
 ```
-If use video tag to play the following video, see HTML below:
+If use video tag to play the following video, HTML is like below:
 ```html
 <video id="pearvideo" src="https://qq.webrtc.win/tv/Pear-Demo-Yosemite_National_Park.mp4" controls>
 ```
