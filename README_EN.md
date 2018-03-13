@@ -37,6 +37,7 @@ Simply import `pear-player.min.js` to HTML via the `<script>` tag. Refer to [cod
 - With Browser-to-Browser P2P ability (based on WebTorrent)
 
 ![bitmap](fig/bitmap_en.png)
+
 ## Quick Start
 Please copy the following codes into Web HTML5 code, and then open the webpage. Now, it's time to witness the miracle.
 
